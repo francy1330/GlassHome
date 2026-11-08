@@ -1,0 +1,19 @@
+# Segreti: la chiave di firma e la sua password NON vanno mai pubblicate
+keystore.properties
+*.jks
+*.keystore
+
+# Dati personali: IP della TV, dock, app recenti, città/coordinate del meteo, screenshot
+backups/
+_shots/
+
+# APK: si pubblicano nelle Releases di GitHub, non nel codice
+dist/
+*.idsig
+
+# Generati o scaricati
+out/
+toolchain/
+_reference/
+_downloads/
+.DS_Store
